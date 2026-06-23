@@ -1,0 +1,186 @@
+body { 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8731f8;
+    color: #fff;
+    line-height: 1.6;
+}
+header { 
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("Images/kipani-hero.png"); opacity: 0.9;
+    background-size: cover; 
+    background-position: center;
+}
+.hero-card {
+    background-color: rgba(20,0,40,0.72);
+    padding: 50px 35px;
+    border-radius: 24px;
+    max-width: 760px;
+    text-align: center;
+    box-shadow: 0 0px 60px rgb(255, 255, 255);
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+    margin-bottom: 50px;
+}
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ff8446;
+    margin-bottom: 10px;
+}
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+header a {
+    display: inline-block;
+    padding: 16px 38px;
+    background-color:#ff8146;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+    header a:hover {
+        background-color: #fff;
+        color: #8731f8;
+        transform: scale(1.02);
+        box-shadow: 0 px 20px rgba(55, 0, 87, 0.979);
+        transition: all 0.3s ease;
+    }
+
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2 {
+    color: #8131f8;
+}
+h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+header h1 {
+        font-size: 2.8rem;
+    }
+    header p {
+        font-size: 1.1rem;
+    }
+section {
+    padding: 40px 20px;
+}
+.show-card {
+    background-color: #ff8146;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+   box-shadow: 0 0px 10px rgb(255, 255, 255);
+    margin-top: 20px;
+}.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.social-links a {
+    margin-top: 60px;
+    margin: 5px;
+    gap: 20px;
+}
+.social-links a:hover{
+    box-shadow: 0 0 20px #ff7a18;
+    transform: scale(1.05);
+    transform: translateY(-3px);
+    opacity: 0.9;
+    background-color: #fff;
+    color: #8731f8;
+}
+.social-links a{
+    background-color: #ff8446;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.9s ease;
+}
+.listen-now button {
+    transition: all 0.3s ease;
+}
+.about {
+    background-color: #f7f7f7;
+    color: #8731f8;
+    font-size: 1.1rem;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgb(255, 255, 255);
+    margin-top: 40px;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+}
+footer {
+    text-align: center;
+    padding: 3rem 2 rem;
+    background: #8731f8;
+    margin-top: 4rem;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+}
+.footer-socials {
+    margin-bottom: 1rem;
+}
+.footer-socials a {
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.footer-socials a:hover {
+color: #ff8446;
+}
+footer p {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+@keyframes fadeInUp {
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    @media ( max-width: 600px) {
+
+        .social-links { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+    
